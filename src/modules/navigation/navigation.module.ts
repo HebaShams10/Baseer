@@ -1,4 +1,7 @@
 import { Module } from '@nestjs/common';
+import { NavigationController } from './navigation.controller.js';
 
-@Module({})
+@Module({
+  controllers: [NavigationController],
+})
 export class NavigationModule {}
